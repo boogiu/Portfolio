@@ -1,0 +1,27 @@
+@use './export.scss';
+
+body{
+    background-color: white;
+    font-family: export.$메인폰트;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("/exImage.jpg") ;
+}
+.sideBar{
+    height: 100dvh;
+    width: 300px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(14px);
+}
